@@ -25,48 +25,35 @@ export class App {
     minLongitude: -3
   };
 
-  private _markers1: Array<ILatLong> = new Array<ILatLong>();
-  //private _markers2: Array<ILatLong> = new Array<ILatLong>();
-  //private _markers3: Array<ILatLong> = new Array<ILatLong>();
   private _layers: Array<any> = new Array<any>(
     {
-      markers: this._markers1,
+      latitude: 40.416775,
+      longitude: -3.703790,
       id: 0,
       visible: true,
       location: "Madrid",
       title: "Winter in Madrid",
       author: "C.J. Sansom",
-      goodReadsLink: "https://www.goodreads.com/book/show/891671.Winter_in_Madrid"
+      goodReadsLink: "https://www.goodreads.com/book/show/891671.Winter_in_Madrid",
+      coverUrl: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347651080l/891671.jpg"
+    },
+    {
+      latitude: 37.389091,
+      longitude: -5.984459,
+      id: 1,
+      visible: true,
+      location: "Seville",
+      title: "The Flanders Panel",
+      author: "Arturo Perez-Reverte",
+      goodReadsLink: "https://www.goodreads.com/book/show/11031.The_Flanders_Panel",
+      coverUrl: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328874807l/11031.jpg"
     }
-    //{ markers: this._markers2, id: 1, visible: true },
-    //{ markers: this._markers3, id: 2, visible: true }
   );
 
   constructor() {
-    this._markers1.push({ latitude: 40.416775, longitude: -3.703790 })
-    //for (let i: number = 0; i < 20; i++) {
-    //  this._markers1.push({ latitude: 29.714994 + Math.random() - Math.random(), longitude: -95.46244 + Math.random() - Math.random() });
-    //}
-    //for (let i: number = 0; i < 10; i++) {
-    //  this._markers2.push({ latitude: 29.714994 + Math.random() - Math.random(), longitude: -95.46244 + Math.random() - Math.random() });
-    //}
-    //for (let i: number = 0; i < 15; i++) {
-    //  this._markers3.push({ latitude: 29.714994 + Math.random() - Math.random(), longitude: -95.46244 + Math.random() - Math.random() });
-    //}
   }
 
   private _goToLink(url: string) {
     window.open(url, "_blank");
-  }
-
-  private _click(layerindex: number, markerindex: number) {
-    console.log(`Marker ${markerindex} of layer ${layerindex} says: hello world...`);
-  }
-
-  private _toggleLayer(index: number) {
-    let l: any = this._layers.find(l => l.id == index);
-    if (l != null) {
-      l.visible = !l.visible;
-    }
   }
 }

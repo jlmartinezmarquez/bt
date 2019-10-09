@@ -2,7 +2,8 @@
 <div style="height: 600px">
   <x-map #xmap [Options]="_options" [Box]="_box">
     <x-map-layer *ngFor="let $l of _layers, let $layerIndex=index" [Visible]="$l.visible">
-      <x-map-marker *ngFor="let $m of $l.markers; let $markerIndex=index" [Latitude]="$m.latitude" [Longitude]="$m.longitude" [Title]="$l.location" [IconInfo]="{
+      <x-map-marker [Latitude]="$l.latitude" [Longitude]="$l.longitude" [Title]="$l.location"
+            [IconInfo]="{
                 markerType: _markerTypeId.FontMarker,
                 fontName: 'FontAwesome',
                 fontSize: 24,
@@ -16,14 +17,4 @@
       </x-map-marker>
     </x-map-layer>
   </x-map>
-</div>
-<div class="description">
-  This map has three layers, each with a set of markers. The markers of the first later are red, the second layer blue and the third layer green.
-  You can toogle layers on and off below.
-</div>
-<div class="description" style="cursor: pointer; color: red" (click)="_toggleLayer(0)">Click to toggle red layer.</div>
-<div class="description" style="cursor: pointer; color: blue" (click)="_toggleLayer(1)">Click to toggle blue layer.</div>
-<div class="description" style="cursor: pointer; color: green" (click)="_toggleLayer(2)">Click to toggle green layer.</div>
-<div class="description">
-  See <a href="https://github.com/infusion-code/angular-maps">https://github.com/infusion-code/angular-maps</a> for more info.
-</div>   
+</div> 
