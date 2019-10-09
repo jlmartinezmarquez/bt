@@ -1,0 +1,12 @@
+{
+  "country": "Spain",
+  "books":
+  [
+    {
+      "bookId": "1",
+      "title": "Winter in Madrid",
+      "location": "Madrid",
+      "goodReadsLink": "https://www.goodreads.com/book/show/891671.Winter_in_Madrid"
+    }
+  ]
+}
