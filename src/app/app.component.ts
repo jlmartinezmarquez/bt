@@ -26,6 +26,7 @@ export class App {
   };
 
   //TODO: Store this info to some external file
+  //TODO: Don't use any
   private _layers: Array<any> = new Array<any>(
     {
       latitude: 40.416775,
