@@ -2,8 +2,8 @@
 <div style="height: 600px">
   <x-map #xmap [Options]="_options" [Box]="_box">
     <x-map-layer *ngFor="let $l of _layers, let $layerIndex=index" [Visible]="$l.visible">
-      <x-map-marker [Latitude]="$l.latitude" [Longitude]="$l.longitude" [Title]="$l.location"
-            [IconInfo]="{
+        <x-map-marker [Latitude]="$l.latitude" [Longitude]="$l.longitude" [Title]="$l.location"
+                      [IconInfo]="{
                 markerType: _markerTypeId.FontMarker,
                 fontName: 'FontAwesome',
                 fontSize: 24,
@@ -11,13 +11,12 @@
                 markerOffsetRatio: { x: 0.5, y: 1 },
                 text: '\uF276'
             }">
-        <x-info-box
-                    [DisableAutoPan]="true"
-                    [Title]="$l.location"
-                    [Description]="'<strong>' + $l.title + '</strong> by ' + $l.author">
-          <x-info-box-action [Label]="'GoodReads link'" (ActionClicked)="_goToLink($l.goodReadsLink)"></x-info-box-action>
-        </x-info-box>
-      </x-map-marker>
+          <x-info-box [DisableAutoPan]="true"
+                      [Title]="$l.location"
+                      [Description]="'<strong>' + $l.title + '</strong> by ' + $l.author">
+            <x-info-box-action [Label]="'GoodReads link'" (ActionClicked)="_goToLink($l.goodReadsLink)"></x-info-box-action>
+          </x-info-box>
+        </x-map-marker>
     </x-map-layer>
   </x-map>
 </div> 

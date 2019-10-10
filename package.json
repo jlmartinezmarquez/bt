@@ -25,6 +25,7 @@
     "bingmaps": "^2.0.3",
     "json-loader": "^0.5.7",
     "rxjs": "~6.4.0",
+    "service": "^0.1.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },
