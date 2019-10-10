@@ -11,7 +11,10 @@
                 markerOffsetRatio: { x: 0.5, y: 1 },
                 text: '\uF276'
             }">
-        <x-info-box [DisableAutoPan]="true" [Title]="$l.location" [Description]="'<strong>' + $l.title + '</strong> by ' + $l.author">
+        <x-info-box
+                    [DisableAutoPan]="true"
+                    [Title]="$l.location"
+                    [Description]="'<strong>' + $l.title + '</strong> by ' + $l.author">
           <x-info-box-action [Label]="'GoodReads link'" (ActionClicked)="_goToLink($l.goodReadsLink)"></x-info-box-action>
         </x-info-box>
       </x-map-marker>

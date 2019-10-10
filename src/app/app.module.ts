@@ -7,6 +7,8 @@ import {
   GoogleMapAPILoader, GoogleMapAPILoaderConfig
 } from 'angular-maps';
 import { App } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
+import { InfoBoxComponent } from './info-box/info-box.component';
 
 const useBing = true;
 
@@ -15,7 +17,7 @@ const useBing = true;
     BrowserModule,
     useBing ? MapModule.forRootBing() : MapModule.forRootGoogle()
   ],
-  declarations: [App],
+  declarations: [App, InfoBoxComponent],
   providers: [
     {
       provide: MapAPILoader, deps: [], useFactory: useBing ? BingMapServiceProviderFactory : GoogleMapServiceProviderFactory

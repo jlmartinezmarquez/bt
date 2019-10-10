@@ -25,11 +25,12 @@ export class App {
     minLongitude: -3
   };
 
+  //TODO: Store this info to some external file
   private _layers: Array<any> = new Array<any>(
     {
       latitude: 40.416775,
       longitude: -3.703790,
-      id: 0,
+      isbn: "0330411985",
       visible: true,
       location: "Madrid",
       title: "Winter in Madrid",
@@ -40,7 +41,7 @@ export class App {
     {
       latitude: 37.389091,
       longitude: -5.984459,
-      id: 1,
+      isbn: "9780156029582",
       visible: true,
       location: "Seville",
       title: "The Flanders Panel",
@@ -56,4 +57,5 @@ export class App {
   private _goToLink(url: string) {
     window.open(url, "_blank");
   }
+
 }
