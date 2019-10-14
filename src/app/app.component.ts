@@ -27,14 +27,16 @@ export class App {
     minLongitude: -3
   };
 
-  //TODO: Don't use any
+  //TODO: Don't use "any"
   private _layers: Array<any>;
 
-  private _booksDetailsService: BooksDetailsService;
   constructor(booksDetailsService: BooksDetailsService) {
-    this._booksDetailsService = booksDetailsService;
 
-    this._layers = this._booksDetailsService.getBooks();
+      booksDetailsService.getJsonBooks().subscribe(book => {
+
+      var booksItem = JSON.parse(JSON.stringify(book));
+      this._layers = booksItem.books;
+    })
   }
 
   private _goToLink(url: string) {

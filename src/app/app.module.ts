@@ -15,6 +15,7 @@ const useBing = true;
 @NgModule({
   imports: [
     BrowserModule,
+    HttpClientModule,
     useBing ? MapModule.forRootBing() : MapModule.forRootGoogle()
   ],
   declarations: [App, InfoBoxComponent],
