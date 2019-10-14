@@ -2,6 +2,7 @@ import { Component, NgModule, VERSION } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
 import { MapModule, MapAPILoader, BingMapAPILoaderConfig, BingMapAPILoader, MarkerTypeId, IMapOptions, IBox, WindowRef, DocumentRef, MapServiceFactory, ILatLong, BingMapServiceFactory, ClusterPlacementMode, ClusterClickAction } from 'angular-maps';
 import { BooksDetailsService } from './books-details.service';
+import { BookDetailsDto } from './dtos/book-details-dto';
 
 let PathData: Array<any> = null;
 
@@ -28,14 +29,15 @@ export class App {
   };
 
   //TODO: Don't use "any"
-  private _layers: Array<any>;
+  private _layers: Array<BookDetailsDto>;
 
   constructor(booksDetailsService: BooksDetailsService) {
 
       booksDetailsService.getJsonBooks().subscribe(book => {
 
-      var booksItem = JSON.parse(JSON.stringify(book));
-      this._layers = booksItem.books;
+        var booksItem = JSON.parse(JSON.stringify(book));
+
+        this._layers = booksItem.books;
     })
   }
 
