@@ -1,0 +1,16 @@
+{
+  "country": "UK",
+  "books": [
+    {
+      "latitude": "51.507351",
+      "longitude": "-0.127758",
+      "isbn": "0375703861",
+      "visible": "true",
+      "location": "London",
+      "title": "White teeth",
+      "author": "Zadie Smith",
+      "goodReadsLink": "https://www.goodreads.com/book/show/3711.White_Teeth",
+      "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374739885l/3711.jpg"
+    }
+  ]
+}

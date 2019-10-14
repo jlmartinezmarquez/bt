@@ -13,6 +13,6 @@ export class BooksDetailsService {
 
   //TODO: Don't use "any"
   public getJsonBooks(): Observable<any> {
-    return this.http.get("./assets/bookDetails.json");
+    return this.http.get("./assets/spain.json");
   }
 }
