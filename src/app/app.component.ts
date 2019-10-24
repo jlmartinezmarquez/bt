@@ -58,13 +58,17 @@ export class App implements AfterViewInit {
 
       var selectedCountry = this.ngxSmartModalService.getModal('whereModal').getData();
 
-      //console.log(this._box);
+      console.log(this._box);
 
       //TODO: I can't seem to get these values loaded on the map, so it gets focused depending on the new values
-      this._box.maxLatitude = selectedCountry.maxLatitude;
-      this._box.maxLongitude = selectedCountry.maxLongitude;
-      this._box.minLatitude = selectedCountry.minLatitude;
-      this._box.minLongitude = selectedCountry.minLongitude;
+      this._box.maxLatitude = parseFloat(selectedCountry.maxLatitude);
+      this._box.maxLongitude = parseFloat(selectedCountry.maxLongitude);
+      this._box.minLatitude = parseFloat(selectedCountry.minLatitude);
+      this._box.minLongitude = parseFloat(selectedCountry.minLongitude);
+
+      this._box = JSON.parse(JSON.stringify(this._box));
+
+      console.log(this._box);
 
       //console.log(this._box);
 
