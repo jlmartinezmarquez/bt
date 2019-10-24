@@ -1,0 +1,28 @@
+<ngx-smart-modal #myModal identifier="whereModal">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col"><h5>So, let us know where are you going to</h5></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <ng-select [items]="_continents"
+                   bindLabel="name"
+                   placeholder="Continent"
+                   appendTo="body"
+                   [multiple]="false"
+                   (change)="selectedContinent($event)">
+        </ng-select>
+      </div>
+      <div class="col">
+        <ng-select [items]="_countries"
+                   bindLabel="name"
+                   placeholder="Country"
+                   appendTo="body"
+                   [multiple]="false"
+                   *ngIf="_showCountries"
+                   (change)="selectedCountry($event)">
+        </ng-select>
+      </div>
+    </div>
+  </div>
+</ngx-smart-modal>

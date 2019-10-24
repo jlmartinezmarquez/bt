@@ -1,0 +1,320 @@
+{
+  "continent": "Europe",
+  "countries": [
+    {
+      "name": "Albania",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Armenia",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Austria",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Belarus",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Belgium",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Bulgaria",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Switzerland",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Cyprus",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Czech Republic",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Germany",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Denmark",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Estonia",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Spain",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Faeroe Islands",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Finland",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "France",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "United Kingdom",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Georgia",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Gibraltar",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Greece",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Hungary",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Croatia",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Ireland",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Iceland",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Italy",
+      "maxLatitude": "46",
+      "maxLongitude": "25",
+      "minLatitude": "37",
+      "minLongitude": "5"
+    },
+    {
+      "name": "Lithuania",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Luxembourg",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Latvia",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Monaco",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Macedonia",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Malta",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Norway",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Netherlands",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Poland",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Portugal",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Romania",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Russian Federation",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Sweden",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Slovenia",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Slovakia",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "San Marino",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Turkey",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Ukraine",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    },
+    {
+      "name": "Vatican City State",
+      "maxLatitude": "60",
+      "maxLongitude": "40",
+      "minLatitude": "35",
+      "minLongitude": "-3"
+    }
+  ]
+}

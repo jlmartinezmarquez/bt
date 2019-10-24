@@ -9,6 +9,11 @@ import {
 import { App } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { InfoBoxComponent } from './info-box/info-box.component';
+import { NgxSmartModalModule } from 'ngx-smart-modal';
+import { WhereYouGoingComponent } from './where-you-going/where-you-going.component';
+
+import { NgSelectModule } from '@ng-select/ng-select';
+import { FormsModule } from '@angular/forms';
 
 const useBing = true;
 
@@ -16,9 +21,12 @@ const useBing = true;
   imports: [
     BrowserModule,
     HttpClientModule,
-    useBing ? MapModule.forRootBing() : MapModule.forRootGoogle()
+    useBing ? MapModule.forRootBing() : MapModule.forRootGoogle(),
+    NgxSmartModalModule.forRoot(),
+    NgSelectModule,
+    FormsModule
   ],
-  declarations: [App, InfoBoxComponent],
+  declarations: [App, InfoBoxComponent, WhereYouGoingComponent],
   providers: [
     {
       provide: MapAPILoader, deps: [], useFactory: useBing ? BingMapServiceProviderFactory : GoogleMapServiceProviderFactory
